@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.user{
+    background:linear-gradient(to top ,rgb(102, 222, 243),rgb(75, 183, 255));
+    height: 100vh;
+}
+.user .container{
+    padding-top:150px ;
+}
+.user .row{
+    background: #f8f8f8;
+    height: 60vh;
+    
+    box-shadow: 1px 1px 10px rgba(26, 25, 25, 0.164),
+    1px 1px 10px rgba(49, 48, 48, 0.253);
+    border-radius: 12px;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+.table{
+    border: 1px solid;
+    height: 200px;
+    /* margin-top: 100px; */
+
+}
+tr{
+
+}
+tbody{
+    border:none;
+}
+.table>:not(:first-child) {
+    border-top:1px solid rgba(0, 0, 0, 0.74) ;
+}
+th{
+    text-transform: uppercase;
+}
+th,td{
+    border:1px solid rgba(36, 35, 35, 0.651)
+}
+.pagin{
+    display: grid;
+    place-items: center;
+}
+form{
+    /* padding: 1rem; */
+    /* border: 1px solid; */
+    width: 400px !important;
+}
+.frombox{
+    margin-top: 2rem;
+}
+.frombox input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #000;
+    width: 210px;
+    float: right;
+}
+.fbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+.frombox label{
+    /* float: right; */
+    text-transform: capitalize;
+}
+.mybtn{
+    background: blue;
+    border: none;
+    margin-top: 1rem;
+    width: 210px;
+    float: right;
+    border-radius: 8px;
+    color: #f8f8f8;
+    height: 40px;
+}
